@@ -2,8 +2,8 @@
 # Python code for interacting with VisionCraft API
 import requests, json
 import colorama
-from colorama import Fore, Back, Style
-colorama.init()
+
+
 
 def apiresponce(prompt):
   response = requests.post(
