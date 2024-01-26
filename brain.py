@@ -1,7 +1,7 @@
 
 # Python code for interacting with VisionCraft API
 import requests, json
-import colorama
+
 
 
 
