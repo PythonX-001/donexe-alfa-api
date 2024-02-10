@@ -5,6 +5,9 @@ from brain import apiresponce
 
 app = Flask(__name__)
 CORS(app)
+@app.route('/')
+def index():
+    return  '<h1>hi bro</h1>'
 
 @app.route('/chatbot', methods=['POST'])
 def chatbot():
