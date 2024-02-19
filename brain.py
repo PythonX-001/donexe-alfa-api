@@ -10,7 +10,7 @@ def apiresponce(prompt):
     url="https://api.visioncraft.top/llm",
     data=json.dumps({
       "token": "546197d1-5b74-4f3e-abf1-46210d603801",
-      "model": "dolphin-2.6-mixtral-8x7b",
+      "model": "Mixtral-8x7B-Instruct-v0.1",
       "messages": prompt
     })
   )
