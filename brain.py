@@ -7,7 +7,7 @@ import requests, json
 
 def apiresponce(prompt):
   response = requests.post(
-    url="https://visioncraft-rs24.koyeb.app/llm",
+    url="https://api.visioncraft.top/llm",
     data=json.dumps({
       "token": "546197d1-5b74-4f3e-abf1-46210d603801",
       "model": "dolphin-2.6-mixtral-8x7b",
