@@ -14,6 +14,8 @@ def apiresponce(prompt):
   response = chat_completion = client.chat.completions.create(
     messages=prompt,
     model="mixtral-8x7b-32768",
+    max_tokens=2048,
+
 )
   content = chat_completion.choices[0].message.content
   return content
