@@ -9,7 +9,7 @@ CORS(app)
 def index():
     return  '<h1>hi bro</h1>'
 
-@app.route('/chatbot', methods=['POST'])
+@app.route('/chatbot',  methods=["POST", "GET"])
 def chatbot():
     # Get the user's message from the request
     data = request.get_json()
