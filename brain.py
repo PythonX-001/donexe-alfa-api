@@ -11,10 +11,10 @@ def apiresponce(prompt, token):
     token = int(token)  
     completion = client.chat.completions.create(
         model="gemma2-9b-it",
-        messages={
+        messages=[{
                 "role": "user",
                 "content": prompt
-            },
+            },]
         temperature=1,
         max_tokens=token,
         top_p=1,
