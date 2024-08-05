@@ -9,7 +9,7 @@ client =  Groq(api_key="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
 
 def apiresponce(prompt, token):
   
-    completion = qclient.chat.completions.create(
+    completion = client.chat.completions.create(
         model="gemma2-9b-it",
         messages=prompt,
         temperature=1,
