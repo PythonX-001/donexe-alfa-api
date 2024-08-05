@@ -14,7 +14,7 @@ def chatbot():
     # Get the user's message from the request
     data = request.get_json()
     user_message = data.get('message')
-    tpken = data.get('token')
+    token = int(data.get('token'))
     
     # Here you would add the logic to process the user's message and generate a response
     # For demonstration purposes, we'll just echo the message back
