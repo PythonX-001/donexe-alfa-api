@@ -14,7 +14,7 @@ def apiresponce(prompt, token):
         messages=[{
                 "role": "user",
                 "content": prompt
-            },] ,
+            }] ,
         temperature=1,
         max_tokens=token,
         top_p=1,
@@ -23,6 +23,5 @@ def apiresponce(prompt, token):
     )
 
     return completion.choices[0].message.content
-
 
 
