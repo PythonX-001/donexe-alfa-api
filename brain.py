@@ -2,7 +2,7 @@
 # Python code for interacting with VisionCraft API
 import requests, json
 from groq import Groq
-client =  Groq(api_key="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")
+client =  Groq(api_key="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")
 
 
 
