@@ -3,7 +3,7 @@ from flask_cors import CORS
 import json
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 app = Flask(__name__)
 CORS(app)
