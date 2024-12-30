@@ -24,7 +24,6 @@ def chatbot():
         
 
         print(f"User message: {user_message}")
-        print(f"Token adjustment: {number}")
         
         # Ensure `user_message` is in the correct format
         if not isinstance(user_message, list):
